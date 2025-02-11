@@ -42,7 +42,7 @@
         height: 23vw;
     }
 
-    .miniHeading, .contentCard, .redirectCard, .extendableMenu
+    .miniHeading, .contentCard, .redirectCard
     {
         border: 0.5vw solid #843414;
     }
@@ -93,7 +93,7 @@
         height: 35vw;
     }
 
-    .miniHeading, .redirectCard, .contentCard, .extendableMenu
+    .miniHeading, .redirectCard, .contentCard
     {
         border: 0.25vw solid #843414;
     }
@@ -146,7 +146,7 @@ a
 {
     cursor: pointer;
     display: inline-block;
-    background-color: #a8cebd;
+    background-image: url("images/bars.png");
     box-sizing: border-box;
     width: 7vw;
     height: 7vw;
@@ -156,6 +156,7 @@ a
 {
     width: 95%;
     height: 7vw;
+    background-image: none;
 }
 
 
