@@ -251,6 +251,7 @@ body
     cursor: pointer;
     display: inline-block;
     background-image: url("images/bars.png");
+    background-size: contain;
     box-sizing: border-box;
     width: 7vw;
     height: 7vw;
