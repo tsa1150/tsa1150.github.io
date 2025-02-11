@@ -49,11 +49,7 @@
     .sidesItemGrid
     {
         border: 0.5vw solid #843414;
-    }
-    .extendableMenu
-    {
-        border: 0.5vw solid #843414;
-    }    
+    }  
 }
 
 @media screen and (max-width: 434px)
@@ -107,12 +103,7 @@
     .sidesItemGrid
     {
         border: 0.25vw solid #843414;
-    }
-    .extendableMenu
-    {
-        border: 0.25vw solid #843414;
-    }    
-
+    }  
 }
 
 a
@@ -259,7 +250,7 @@ body
 {
     cursor: pointer;
     display: inline-block;
-    background-color: #a8cebd;
+    background-image: url("images/bars.png");
     box-sizing: border-box;
     width: 7vw;
     height: 7vw;
@@ -269,6 +260,7 @@ body
 {
     width: 95%;
     height: 7vw;
+    background-image: none;
 }
 
 
