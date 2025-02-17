@@ -10,6 +10,13 @@
     </head>
 
     <body>
+        <dialog id="confirmation">
+            <p id="confirmationText"></p>
+            <div id="buttonGrid">
+                <button id="yes">Confirm?</button>
+                <button id="no">Redo</button>
+            </div>
+        </dialog>
         <header>
             <div class="topBar">
                 <div id="titlesGrid">
@@ -39,6 +46,30 @@
             <p class = "bookBody">When booking a table you will need to input the following information:</p>
             <p class = "bookBody">Name of Reservation: Size of Party: Date: Time: Seating Preferences: (Table, Outdoor Seating, Corner Seating)</p>
         </div>
+        <div id="mainStructure">
+            <div id="bookStructure">
+                <form id="bookForm">
+                    <label for="resName">Reservation Name</label><br>
+                    <input id="resNameInput" name="resName"><br><br>
+
+                    <label for="numPeople">Number of people in the party</label><br>
+                    <input type="range" id="numPeopleInput" name="numPeople" min="2", max="8", step="1" value="2">
+                    <em id="numPeopleLabel"></em><br><br>
+
+                    <label for="time">Time of Reservation</label><br>
+                    <input type="time" id="timeInput" name="time"><br><br>
+
+                    <label for="date">Date of Reservation</label><br>
+                    <input type="date" id="dateInput" name="date"><br><br>
+
+                    <button id="submitButton">Submit</button>
+                </form>
+            </div>
+            <div id="finishStructure">
+                <h2 id="finishheading">Reservation Placed</h2>
+                <p id="finishText"></p>
+            </div>
+        </div>
         <footer>
             <p>Phone: (860) 987-2160<br>
                 Address: 277 Golden Gate Ave, San Francisco, CA 94102<br>
@@ -46,5 +77,6 @@
             </p>
         </footer>
         <script src="grower.js"></script>
+        <script src="booking.js"></script>
     </body>
 </html>
