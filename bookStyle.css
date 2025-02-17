@@ -211,7 +211,7 @@ body
     background-size: contain;
     box-sizing: border-box;
     width: 7vw;
-    height: max-content;
+    height: 7vw;
     position: fixed;
     border: 0.5vw solid #26865b;
     top: 0;
@@ -221,7 +221,7 @@ body
 .extendableMenu.extended
 {
     width: 100vw;
-    height: max-content;
+    height: 7vw;
     background-image: none;
 }
 
