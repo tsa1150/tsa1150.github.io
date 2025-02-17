@@ -230,6 +230,7 @@ body
 {
     background-color: #26865b;
     overflow-wrap: normal;
+    work-break: breakall;
 }
 
 .sidesGrid
