@@ -351,3 +351,12 @@ button
     grid-template-rows: auto;
     grid-template-columns: 1fr;
 }
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    font-size: 3vw;
+    color: white;
+}
