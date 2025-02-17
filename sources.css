@@ -181,7 +181,7 @@ body
     border: 0.5vw solid #843414;
     background-color: #26865b;
     padding: 1vw;
-    max-height: 5vw;
+    max-height: max-content;
     box-sizing: border-box;
     align-content: center;
     justify-content: center;
@@ -211,7 +211,8 @@ body
     background-size: contain;
     box-sizing: border-box;
     width: 7vw;
-    height: 7vw;
+    height: max-content;
+    border: 0.5vw solid #843414;
     position: fixed;
     top: 0;
     left: 0;
@@ -237,7 +238,7 @@ body
     padding: 3vw;
     background-color: #a8cebd;
     width: 100%;
-    height: 5vw;
+    height: max-content;
     pointer-events: none;
 
     opacity: 0;
