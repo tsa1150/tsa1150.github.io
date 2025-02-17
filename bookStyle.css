@@ -319,6 +319,7 @@ button
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(2, 1fr);
+    column-gap: 2vw;
 }
 
 #finishStructure
