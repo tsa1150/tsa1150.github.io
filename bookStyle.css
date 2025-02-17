@@ -346,6 +346,7 @@ button
 
 #mainStructure
 {
+    margin: 4vw;
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 1fr;
