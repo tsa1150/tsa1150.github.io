@@ -270,3 +270,93 @@ body
     color: white;
     text-align: center;
 }
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    font-size: 3vw;
+    color: white;
+}
+
+button
+{
+    font-family: "Roboto";
+    font-size: 3vw;
+}
+
+#bookStructure
+{
+    grid-area: 1/1;
+    z-index: 1;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+#bookForm
+{
+
+    opacity: 1;
+    justify-self: center;
+    align-self: center;
+    background-color: rgb(37, 60, 38);
+    display: flexbox;
+    width: max-content;
+    justify-content: center;
+    align-content: space-around;
+    padding: 4vh;
+    pointer-events: all;
+    border: 1vh solid #843414;
+}
+#bookForm.submitted
+{
+    opacity: 0;
+}
+
+#confirmation
+{
+    margin-top: 0;
+    background-color: #a8cebd;
+    border: 1vh solid #843414;
+    /*color: white;*/
+}
+
+#buttonGrid
+{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#finishStructure
+{
+    pointer-events: none;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: space-around;
+    align-content: center;
+    grid-area: 1/1;
+    z-index: 2;
+    opacity: 0;
+    background-color: #a8cebd;
+    border: 1vh solid #843414;
+    padding: 4vh;
+}
+#finishStructure.opened
+{
+    opacity: 1;
+    pointer-events: all;
+}
+
+#mainStructure
+{
+    max-height: 30vh;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+}
