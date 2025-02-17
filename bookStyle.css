@@ -226,6 +226,7 @@ body
 
 .list
 {
+     border: 0.5vw solid #26865b;
     display: grid;
     box-sizing: border-box;
     grid-template-rows: 1fr;
