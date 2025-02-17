@@ -223,6 +223,7 @@ body
     gap: 3vw;
     padding: 4vw;
     max-width: 100vw;
+    word-break: break-all;
 }
 
 .entreeItemGrid
