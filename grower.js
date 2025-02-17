@@ -9,8 +9,9 @@ function menuErector()
     list.classList.add("visible");
 }
 
-function nakedGrandma()
+function nakedGrandma(e)
 {
+    e.stopPropagation();
     var menu = document.getElementById("menu1");
     var list = document.getElementById("list1");
     
