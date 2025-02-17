@@ -42,7 +42,7 @@ function Function(e)
     var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     var hours = parseInt(time.value.split(":")[0]);
-    if (hours > 8 && hours < 20 && weekdayIndex != 0 && weekdayIndex != 6 && resName.value != "" && Math.abs(currMonth - monthIndex) >= 2)
+    if (hours > 10 && hours < 22 && weekdayIndex != 0 && weekdayIndex != 6 && resName.value != "" && Math.abs(currMonth - monthIndex) >= 2)
     {
         confirmText = `Reservation Number: ${getRandNumber()}\nReservation Name: ${resName.value}\n${weekdays[weekdayIndex]} ${months[monthIndex]}, ${dateNum} at ${time.value}\n${numPeople.value} people`;
         confirmOpen();
