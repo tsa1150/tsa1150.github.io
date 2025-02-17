@@ -213,7 +213,6 @@ body
     position: fixed;
     top: 0;
     left: 0;
-    border: 0.5vw solid #843414;
 }
 
 .extendableMenu.extended
@@ -225,6 +224,7 @@ body
 
 .list
 {
+     border: 0.5vw solid #26865b;
     display: grid;
     box-sizing: border-box;
     grid-template-rows: 1fr;
