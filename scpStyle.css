@@ -150,7 +150,6 @@ a
     background-color: #a8cebd;
     background-size: contain;
     box-sizing: border-box;
-    border: 0.5vw solid #843414;
     width: 7vw;
     height: 7vw;
     position: fixed;
@@ -168,6 +167,7 @@ a
 
 .list
 {
+     border: 0.5vw solid #26865b;
     display: grid;
     box-sizing: border-box;
     grid-template-rows: 1fr;
