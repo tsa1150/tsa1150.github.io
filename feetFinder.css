@@ -10,3 +10,10 @@ footer
 {
     font-size: 0.5px;
 }
+
+#arrow
+{
+    height: 5vw;
+    width: auto;
+    cursor: pointer;
+}
