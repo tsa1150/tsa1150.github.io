@@ -212,7 +212,7 @@ body
     box-sizing: border-box;
     width: 7vw;
     height: 7vw;
-    position: static;
+    position: fixed;
     top: 0;
     left: 0;
 }
