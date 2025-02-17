@@ -212,7 +212,6 @@ body
     box-sizing: border-box;
     width: 7vw;
     height: 7vw;
-    border: 0.5vw solid #843414;
     position: fixed;
     top: 0;
     left: 0;
@@ -227,6 +226,7 @@ body
 
 .list
 {
+     border: 0.5vw solid #26865b;
     display: grid;
     box-sizing: border-box;
     grid-template-rows: 1fr;
