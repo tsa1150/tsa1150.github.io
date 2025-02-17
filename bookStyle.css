@@ -128,9 +128,9 @@ body
 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
-    justify-content: space-around;
-    align-content: space-evenly;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-content: center;
     column-gap: 2vw;
     padding: 0 0 0 4vw;
     width: 100vw;
@@ -198,6 +198,8 @@ body
 {
     background-color: #26865b;
     overflow-wrap: normal;
+    height: max-content;
+    padding: 2vw;
 }
 
 .extendableMenu
@@ -210,6 +212,9 @@ body
     box-sizing: border-box;
     width: 7vw;
     height: 7vw;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .extendableMenu.extended
@@ -249,6 +254,8 @@ body
 #titlesGrid
 {   
     display: grid;
+    align-self: center;
+    justify-self: center;
     grid-template-rows: 1fr;
     width: 100vw;
     grid-template-columns: repeat(2, 1fr);
