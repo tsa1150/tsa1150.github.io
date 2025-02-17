@@ -280,7 +280,7 @@ body
     display: grid;
     box-sizing: border-box;
     grid-template-rows: 1fr;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 3vw;
     align-items: center;
     justify-items: center;
