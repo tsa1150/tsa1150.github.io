@@ -271,15 +271,6 @@ body
     text-align: center;
 }
 
-body
-{
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto";
-    font-size: 3vw;
-    color: white;
-}
-
 button
 {
     font-family: "Roboto";
@@ -355,8 +346,7 @@ button
 
 #mainStructure
 {
-    max-height: 30vh;
     display: grid;
-    grid-template-rows: 1fr;
+    grid-template-rows: auto;
     grid-template-columns: 1fr;
 }
