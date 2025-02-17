@@ -219,7 +219,7 @@ body
 
 .extendableMenu.extended
 {
-    width: 90%;
+    width: 100vw;
     height: 7vw;
     background-image: none;
 }
