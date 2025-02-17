@@ -262,7 +262,6 @@ body
     width: 7vw;
     height: 7vw;
     position: fixed;
-    border: 0.5vw solid #843414;
     top: 0;
     left: 0;
 }
@@ -277,6 +276,7 @@ body
 
 .list
 {
+     border: 0.5vw solid #26865b;
     display: grid;
     box-sizing: border-box;
     grid-template-rows: 1fr;
