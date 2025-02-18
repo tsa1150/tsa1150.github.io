@@ -261,3 +261,36 @@ body
     justify-self: center;
     align-self: center;
 }
+
+
+#blurbStructure
+{
+    display: grid;
+    grid-template-rows: max-content;
+    grid-template-columns: 1fr;
+    max-width: 90vw;
+    margin: 5vw;
+    gap: 4vw;
+}
+
+.blurb
+{
+    display: flex;
+    flex-direction: column;
+    background-color: chartreuse;
+    border: 3px solid black;
+    height: auto;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
+
+.dropdown
+{
+    cursor: pointer;
+    width: 100%;
+    margin-top: auto;
+}
+.dropdown.clicked
+{
+    transform: rotate(180deg);
+}
