@@ -1,0 +1,116 @@
+.extendableMenu
+{
+  z-index: 1;
+}
+.extendableMenu.extended
+{
+    /*
+    width: 100vw;
+    height: 7vw;
+    background-image: none;
+    */
+    cursor: default;
+    animation-name: extend;
+    animation-duration: 0.25s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+.extendableMenu.retract
+{
+    animation-name: retract;
+    animation-duration: 0.25s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+@keyframes extend
+{
+    0%
+    {
+        width: 7vw;
+        height: 7vw;
+    }
+    100%
+    {
+        background-image: none;
+        width: 100vw;
+        height: 7vw;
+    }
+}
+@keyframes retract
+{   
+    0%
+    {
+        width: 100vw;
+        height: 7vw;
+        background-image: none;
+    }
+    100%
+    {
+        background-image: url("bars.png");
+        width: 7vw;
+        height: 7vw;
+    }
+}
+
+.list.visible
+{
+    /*
+    opacity: 1;
+    pointer-events: all;
+    */
+    animation-name: showMe;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+.list.hide
+{
+    animation-name: hideMe;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+@keyframes showMe
+{
+    0%
+    {
+        opacity: 0;
+        pointer-events: none;
+    }
+    50%
+    {
+        pointer-events: all;
+        cursor: default;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+@keyframes hideMe
+{
+    0%
+    {
+        opacity: 1;
+        pointer-events: all;
+    }
+    50%
+    {
+        pointer-events: none;
+        cursor: default;
+    }
+    100%
+    {
+        opacity: 0%;
+    }
+}
+
+#arrow.show
+{
+    pointer-events: all;
+    z-index: 2;
+}
