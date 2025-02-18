@@ -263,11 +263,11 @@ body
 }
 
 
-#blurbStructure
+#mainBlurbStructure
 {
     display: grid;
-    grid-template-rows: max-content;
-    grid-template-columns: 1fr;
+    grid-template-rows: fit-content;
+    grid-template-columns: repeat(3, 1fr);
     max-width: 90vw;
     margin: 5vw;
     gap: 4vw;
@@ -277,19 +277,21 @@ body
 {
     display: flex;
     flex-direction: column;
-    background-color: #26865b;
-    border: 3px solid #843414;
-    height: auto;
+    background-color: #26865B;
+    border: 0.5vw solid #843414;
+    height: min-content;
     padding-bottom: 0;
-    padding: 2vw;
+    max-width: 30vw;
+    max-height: 19.5vw;
     box-sizing: border-box;
+    align-content: center;
 }
 
 .dropdown
 {
     cursor: pointer;
-    width: calc(100% + 4vw);
-    margin: auto auto -2vw -2vw
+    width: 100%;
+    margin-top: auto;
 }
 .dropdown.clicked
 {
@@ -298,7 +300,7 @@ body
 
 .text
 {
-    width: 85vw;
+    width: 100%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -313,4 +315,33 @@ body
 {
     white-space: nowrap;
     text-overflow: ellipsis;
+}
+
+.blurbStructure
+{
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    justify-items: center;
+    align-items: center;
+}
+
+.textBlurb
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #26865B;
+    border: 0.5vw solid #843414;
+    height: min-content;
+    padding-bottom: 0;
+    box-sizing: border-box;
+
+    max-width: 25vw;
+}
+.image
+{
+    max-width: 25vw;
+    height: auto;
+    justify-self: center;
+    align-self: center;
 }
