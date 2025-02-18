@@ -205,13 +205,18 @@ a
     color: white;
     text-decoration: none;
 }
+h1
+{
+    font-size: 5vw;
+}
 #titlesGrid
 {   
     display: grid;
     grid-template-rows: 1fr;
     width: 100vw;
     grid-template-columns: repeat(2, 1fr);
-    justify-content: space-between;
+    justify-content: center;
+    justify-items: center;
     justify-self: center;
     align-self: center;
 }
