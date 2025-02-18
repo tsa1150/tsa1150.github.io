@@ -281,14 +281,16 @@ body
     border: 3px solid black;
     height: auto;
     padding-bottom: 0;
+    padding: 2vw;
     box-sizing: border-box;
 }
 
 .dropdown
 {
     cursor: pointer;
-    width: 100%;
+    width: calc(100% + 4vw);
     margin-top: auto;
+    margin-left: -2vw;
 }
 .dropdown.clicked
 {
