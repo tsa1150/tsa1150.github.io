@@ -57,10 +57,10 @@ header
 
 .title
 {
-    color: white;
-    font-size: 10vw;
-    justify-self: center;
-    align-self: center;
+    margin-top: 3vw;
+    padding: 0;
+
+    text-shadow: 0.3vw 0.3vw 1vw #000000, 1vw -0.3vw 1vw #000000, -0.3vw 0.3vw 1vw #000000, 0.3vw -0.3vw 1vw #000000;
 }
 
 
