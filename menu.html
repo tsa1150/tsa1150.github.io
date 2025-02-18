@@ -1,141 +1,204 @@
 <!DOCTYPE html>
 <html>
-
     <head>
         <link rel="stylesheet" href="menu.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="feetFinder.css">
-        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
         <link rel="icon" type="image/x-icon" href="images/favicon.png">
         <link rel="stylesheet" href="animation.css">
         <title>Menu</title>
     </head>
-
     <body>
+        <div class="extendableMenu" id="menu1">
+            <div class="list" id="list1">
+                <div class="redirectCard">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="redirectCard">
+                        <a href="menu.html">Menu</a>
+                </div>
+                <div class="redirectCard">
+                    <a href="scp.html">About Us</a>
+                </div>
+                <div class="redirectCard">
+                    <a href="sources.html">References Page</a>
+                </div>
+                <img src="images/arrow.png" id="arrow">
+            </div>
+        </div>
         <header>
-            <div class="topBar">
-                <div id="titlesGrid">
-                    <h1 class="title">The Lotus Lab</h1>
-                    <h1 class="title">Menu</h1>
-                </div>
-                <div class="extendableMenu" id="menu1">
-                    <div class="list" id="list1">
-                        <div class="redirectCard">
-                            <a href="index.html">Home</a>
-                        </div>
-                        <div class="redirectCard">
-                            <a href="scp.html">About Us</a>
-                        </div>
-                        <div class="redirectCard">
-                            <a href="sources.html">Reference Page</a>
-                        </div>
-                        <div class="redirectCard">
-                            <a href="book.html">Book a Table</a>
-                        </div>
-                        <img src="images/arrow.png" id="arrow">
-                    </div>
-                </div>
-            </div>
+            <h1 id="title">Menu</h1>
         </header>
-
-        <h1>Appetizers:</h1>
-        <div class = "appGrid">
-            <div class = "appItemGrid">
-                <h3>Stir-fried Chinese Long Beans</h3>
-                <p>Chinese snake beans are married to Sichuanese chilies and peppercorns in organic peanut oil.</P>
+        <div class="sectionStructure">
+            <h1 class="sectionTitle">Appetizers</h1>
+            <div class="item">
+                <img src="images/stir fried long beans.jpg" class="itemImage">
+                <div class="itemText">
+                    <h2>Sichuan Style Stir-fried Chinese Long Beans</h2>
+                    <p class="itemDescription">Chinese snake beans are married to Sichuanese chilies and peppercorns in organic peanut oil. (½ lb serving)</p>
+                </div>
             </div>
-            <div class = "appItemGrid">
-                <h3>Ginger Glazed Carrots</h3>
-                <p>Halved carrots steamed and marinated in soy sauce and rice vinegar flavored with fresh crushed ginger root.</p>
+            <div class="item">
+                <div class="itemText">
+                    <h2>Ginger Glazed Carrots</h2>
+                    <p class="itemDescription">Halved carrots steamed and marinated in soy sauce and rice vinegar flavored with fresh crushed ginger root. (½ lb serving)</p>
+                </div>
+                <img src="images/glazes carrots.png" class="itemImage" >
             </div>
-            <div class = "appItemGrid">
-                <h3>Chinese Style Spare Ribs</h3>
-                <p>“Off-The-Bone” Tofu ribs are rubbed with honey and garlic and grilled intentionally.</p>
+            <div class="item">
+                <img src="images/spare ribs.png" class="itemImage" >
+                <div class="itemText">
+                    <h2>Chinese Style Spare Ribs</h2>
+                    <p class="itemDescription">“Off-The-Bone” Tofu ribs are rubbed with honey and garlic and grilled intentionally.</p>
+                </div>
             </div>
-            <div class = "appItemGrid">
-                <h3>Veggie Spring Rolls</h3>
-                <p>A favorite to the vegan and vegetarian community, steamed and seasoned vegetables are rolled within light rice paper and fried in sunflower oil</p>
+            <div class="item">
+                <div class="itemText">
+                    <h2>Veggie Spring Rolls</h2>
+                    <p class="itemDescription">A favorite to the vegan and vegetarian community, steamed and seasoned vegetables are rolled within light rice paper and fried in sunflower oil</p>
+                </div>
+                <img src="images/spring rolls.jpg" class="itemImage" >
             </div>
-        </div>
-
-        <h1>Entrees</h1>
-        <div class = "entreeGrid">
-            <div class = "entreeItemGrid">
-                <h3>Chinese Flair Salad</h3>
-                <p>Mandarin oranges, sesame seeds, and green onions tossed in Napa and purple cabbage and rubbed with a light vinegarette of oil, vinegar, salt, pepper, and onion powder.</p>
-            </div>
-            <div class = "entreeItemGrid">
-                <h3>Stir-fried Mushrooms and Bamboo Shoots</h3>h3>
-                <p>Made by frying tofu, Mushrooms, and Bamboo into one perfect blend.</p>
-            </div>
-            <div class = "entreeItemGrid">
-                <h3>Yuanxiao Dumplings(Large Serving)</h3>
-                <p>A traditional treat for the Lunar New Year. Filled with a red bean paste.</p>
-            </div>
-             <div class = "entreeItemGrid">
-                <h3>Organic Thai Green Curry</h3>
-                <p>	Rice noodles are garnished and seasoned with a variety of greens.</p>
-            </div>
-            <div class = "entreeItemGrid">
-                <h3>Sweet Potato and Green Bean Lemak</h3>
-                <p>Umami flavor is redefined in this delicious fusion dish.</p>
-            </div>
-            <div class = "entreeItemGrid">
-                <h3>Confetti Thai Peanut Noodles</h3>
-                <p>As colorful as they are flavorful, this is a vegan (and chef’s)  favorite!</p>
-            </div>
-            <div class = "entreeItemGrid">
-                <h3>South East Slow Cooked Vegetables</h3>
-                <p>Starchy vegetables softened by 4 hours in our electric slow cooker.</p>
-            </div>
-            <div class = "entreeItemGrid">
-                <h3>Tofu and Quinoa Salad</h3>
-                <p>Grilled Tofu and vibrant grains tossed with cabbage and sugar snap peas.</p>
+            <div class="item">
+                <img src="images/tea eggs.jpg" class="itemImage" >
+                <div class="itemText">
+                    <h2>Chinese Tea Eggs</h2>
+                    <p class="itemDescription">A Traditionally lucky food made for Chinese New Year. It has a rich brown marble pattern.</p>
+                </div>
             </div>
         </div>
-
-        <h1>Sides</h1>
-        <div class = "sidesGrid">
-            <div class = "sidesItemGrid">
-                <h3>Sichuan Style Stir-Fried Chinese Long Beans</h3>
-                <p>Stir-fried Chinese Long beans married in organic peanut oil to Sichuanese Chilies and peppercorns.</p>
+        <div class="sectionStructure">
+            <h1 class="sectionTitle">Entrees</h1>
+            <div class="item">
+                <div class="itemText">
+                    <h2>Chinese Flair Salad</h2>
+                    <p class="itemDescription"> Mandarin oranges, sesame seeds, and green onions tossed in Napa and purple cabbage and rubbed with a light vinegarette of oil, vinegar, salt, pepper, and onion powder.</p>
+                </div>
+                <img src="images/flair salad.jpg" class="itemImage" >
             </div>
-            <div class = "sidesItemGrid">
-                <h3>Chinese Flair Salad</h3>
-                <p>Mandarin oranges, sesame seeds, and green onions tossed in Napa and purple cabbage and rubbed with a light vinegarette of oil, vinegar, salt, pepper, and onion powder.</p>
+            <div class="item">
+                <img src="images/stir fried mushroom and broccoli.png" class="itemImage" >
+                <div class="itemText">
+                    <h2>Stir-fried Mushrooms and Bamboo Shoots</h2>
+                    <p class="itemDescription">Made by frying tofu, Mushrooms, and Bamboo into one perfect blend.</p>
+                </div>
             </div>
-            <div class = "sidesItemGrid">
-                <h3>Cucumber Salad<h3>
-                <p>It is made by heating cucumber in a mixture of sesame oil, chili peppers, and Szechuan peppercorns. <p>
+            <div class="item">
+                <div class="itemText">
+                    <h2>A large Serving of Yuanxiao Dumplings</h2>
+                    <p class="itemDescription">A traditional treat for the Lunar New Year, filled with a red bean paste.</p>
+                </div>
+                <img src="images/dumplings large.png" class="itemImage" >
             </div>
-            <div class = "sidesItemGrid">
-                <h3>Yuanxiao Dumplings<h3>
-                <p>A traditional treat for the Lunar New Year. Filled with a red bean paste.<p>
+            <div class="item">
+                <img src="images/green curry.jpg" class="itemImage" >
+                <div class="itemText">
+                    <h2>Organic Thai Green Curry</h2>
+                    <p class="itemDescription">Rice noodles are garnished and seasoned with a variety of greens.</p>
+                </div>
             </div>
-            <div class = "sidesItemGrid">
-                <h3>Choy Sum with Garlic Sauce<h3>
-                <p>The choy sum is tender, and then drizzled with a garlicky sauce that is savory and lightly sweet.<p>
+            <div class="item">
+                <div class="itemText">
+                    <h2>Sweet Potato and Green Bean Lemak</h2>
+                    <p class="itemDescription">Umami flavor is redefined in this delicious fusion dish</p>
+                </div>
+                <img src="images/lemak.png" class="itemImage" >
             </div>
-            <div class = "sidesItemGrid">
-                <h3>Fried Cabbage<h3>
-                <p> A simple dish made to hold back your appetite.<p>
+            <div class="item">
+                <img src="images/confetti noodles.jpg" class="itemImage" >
+                <div class="itemText">
+                    <h2>Confetti Thai Peanut Noodles</h2>
+                    <p class="itemDescription">As colorful as they are flavorful, this is a vegan (and our chef's) favorite!</p>
+                </div>
             </div>
-            <div class = "sidesItemGrid">
-                <h3>Corn on the Cob<h3>
-                <p>A nice side dish that goes great with any kind of stir-fry. <p>
+            <div class="item">
+                <div class="itemText">
+                    <h2>South East Slow Cooked Vegetables</h2>
+                    <p class="itemDescription">Starchy vegetables softened by 4 hours in our electric slow cooker.</p>
+                </div>
+                <img src="images/slow cooked veggies.png" class="itemImage" >
             </div>
-            <div class = "sidesItemGrid">
-                <h3>Yuanxiao Dumplings<h3>
-                <p>A traditional treat for the Lunar New Year. Filled with a red bean paste<p>
+            <div class="item">
+                <img src="images/gyoza.jpg" class="itemImage" >
+                <div class="itemText">
+                    <h2>Fried Gyoza</h2>
+                    <p class="itemDescription">Savory dumplings: filled with tofu and cabage, and served with sriracha aioli and a soy reduction.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="itemText">
+                    <h2>Pan Seared Vegetable Dumplings</h2>
+                    <p class="itemDescription">Delicious dumples stuffed with cabbage, carrots, and five-spiced tofu. Served with sriracha and wasabi.</p>
+                </div>
+                <img src="images/veg dumpling.jpg" class="itemImage" >
             </div>
         </div>
-        <footer>
-            <p>Phone: 860-987-2160<br>
-                Address: 277 Golden Gate Ave, San Francisco, CA 94102<br>
-                Email: lotus.lab8720@gmail.com 
-            </p>
-        </footer>
-        <script src="grower.js"></script>
+        <div class="sectionStructure">
+            <h1 class="sectionTitle">Sides</h1>
+            <div class="item">
+                <img src="images/stir fried long beans.jpg" class="itemImage" >
+                <div class="itemText">
+                    <h2>Sichuan Style Stir-Fried Chinese Long Beans</h2>
+                    <p class="itemDescription">A smaller serving of stir-fried Chinese Long beans married in organic peanut oil to Sichuanese Chilies and peppercorns. </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="itemText">
+                    <h2>Chinese Flair Salad</h2>
+                    <p class="itemDescription">A smaller serving of mandarin oranges, sesame seeds, and green onions tossed in Napa and purple cabbage and rubbed with a light vinegarette of oil, vinegar, salt, pepper, and onion powder.</p>
+                </div>
+                <img src="images/flair salad.jpg" class="itemImage" >
+            </div>
+            <div class="item">
+                <img src="images/cucumber salad.jpg" class="itemImage" >
+                <div class="itemText">
+                    <h2>Cucumber Salad</h2>
+                    <p class="itemDescription">It is made by heating cucumber in a mixture of sesame oil, chili peppers, and Szechuan peppercorns. </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="itemText">
+                    <h2>Corn on the Cob</h2>
+                    <p class="itemDescription">A homestyle snack with bold flavor.</p>
+                </div>
+                <img src="images/corn.png" class="itemImage" >
+            </div>
+            <div class="item">
+                <img src="images/choy sum and garlic.png" class="itemImage" >
+                <div class="itemText">
+                    <h2>Choy Sum with Garlic Sauce</h2>
+                    <p class="itemDescription">The choy sum is tender, and then drizzled with a garlicky sauce that is savory and lightly sweet.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="itemText">
+                    <h2>Fried Cabbage</h2>
+                    <p class="itemDescription">A simple dish made to hold back your appetite.</p>
+                </div>
+                <img src="images/fried cabbage.png" class="itemImage" >
+            </div>
+            <div class="item">
+                <img src="images/stir friend broccoli.jpg" class="itemImage" >
+                <div class="itemText">
+                    <h2>Broccoli Stir-fry</h2>
+                    <p class="itemDescription">A nice side dish that goes great with any kind of stir-fry. </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="itemText">
+                    <h2>Yuanxiao Dumplings</h2>
+                    <p class="itemDescription">A smaller serving of traditional treat for the Lunar New Year. Filled with a red bean paste</p>
+                </div>
+                <img src="images/small dumplings.png" class="itemImage" >
+            </div>
+            <div class="item">
+                <img src="images/tofu quinoa.jpg" class="itemImage" >
+                <div class="itemText">
+                    <h2>Saffron Rice</h2>
+                    <p class="itemDescription">Enhancing to any protein it’s served along with.</p>
+                </div>
+            </div>
+        </div>
+    <script src="grower.js"></script>
     </body>
 </html>
