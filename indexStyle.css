@@ -295,3 +295,22 @@ body
 {
     transform: rotate(180deg);
 }
+
+.text
+{
+    width: 85vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all 0.25s;
+}
+.text.extended
+{
+    white-space: normal;
+    text-overflow: inherit;
+}
+.text.retracted
+{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
