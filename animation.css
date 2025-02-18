@@ -113,4 +113,6 @@
 {
     pointer-events: all;
     z-index: 2;
+    height: 5vw;
+    width: auto;
 }
