@@ -289,8 +289,7 @@ body
 {
     cursor: pointer;
     width: calc(100% + 4vw);
-    margin-top: auto;
-    margin-left: -2vw;
+    margin: auto auto -2vw -2vw
 }
 .dropdown.clicked
 {
