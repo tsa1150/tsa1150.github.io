@@ -55,7 +55,7 @@ header
     width: 100%;
 }
 
-#title
+.title
 {
     color: white;
     font-size: 10vw;
@@ -204,4 +204,14 @@ a
 {
     color: white;
     text-decoration: none;
+}
+#titlesGrid
+{   
+    display: grid;
+    grid-template-rows: 1fr;
+    width: 100vw;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    justify-self: center;
+    align-self: center;
 }
